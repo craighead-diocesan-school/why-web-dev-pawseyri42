@@ -1,24 +1,43 @@
-<head>
+
+
+
+
+
+
+
+  <body>
+    <header>
+     <h1> ☆⋆Other careers⋆☆ </h1> 
+     <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
 </head>
-
-<h1> ☆⋆Other careers⋆☆ </h1>
-<a href="index.html"> Home </a>
+    </header>
+  
+    <nav>
+    <a href="index.html"> Home </a>
 <a href="opportunities.html"> Web Dev Opportunities </a>
-<a href="other-careers.html"> Other Coding Careers </a>
-
-
-<li>Application developer </li>
+<a href="other-careers.html"> Other Coding Careers </a>  
+    </nav>
+  
+    <main>
+     <li>Application developer </li>
 <li>Network engineer </li>
 <li>Project manage </li>         
 <li>Systems Architect </li>    
 <li> Artificial intelligence researcher </li>  
-<li>Cyber security consultant (hacker)</li>    
-
-<style>
-    * {
+ <li>Cyber security consultant (hacker)</li>    
+    </main>
+  
+    <footer>
+      ...
+    </footer>
+  
+   
+    <style>
+   
+ * {
       font-family: sans-serif;
     }
     h1{font-family: 'Rajdhani', sans-serif; } 
@@ -48,9 +67,31 @@
   background-color: rgb(252, 236, 211);
 }
 h1 {
-      background-color: rgb(203, 230, 241); 
+      background-color: #cbe6f1; 
     }
     h1:hover {
   background-color: rgb(118, 134, 187);
      }
-  </style>
+     body {
+      background-color: rgb(190, 207, 223);
+     }
+     li {
+      background-color: #cbe6f1; 
+     }
+     {
+display: grid;
+grid: 
+ " h    h    h " auto
+ " n    n    n " auto
+ " m    m    f " 5em
+ / 1fr  5fr  1fr;
+  }
+
+  header { grid-area: h; }
+  nav    { grid-area: n; }
+  main   { grid-area: m; }
+  footer { grid-area: f; }
+{ text-align:centre }
+ }
+    </style>
+  </body>
